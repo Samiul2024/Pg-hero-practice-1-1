@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Basic CSS</title>
     <style>
+        #short{
+            color: red;
+            text-align: center;
+        }
+        #embedded{
+            font-size: larger;
+            font-weight: bold;
+
+        }
+        .player{
+            text-align: right;
+
+        }
         p{
             background-color: darkkhaki;
+            width: 50%;
         }
         li{
             color: indianred;
@@ -18,13 +32,15 @@
     <h4 style=" background-color: aquamarine;">Inline CSS</h4>
     <p>CSS Meaning: Cascading style sheet</p>
     <ul>
-        <li>Internal or Embeded</li>
+        <li id="embedded">Internal or Embeded</li>
         <li>External</li>
         <li>Inline</li>
     </ul>
     <p>Style is colorfull</p>
-    <p>short form is CSS</p>
-    <p>Needs style rule and value seperated by clone(:) </p>
+    <p id="short">short form is CSS</p>
+    <p class="player">Needs style rule and value seperated by clone(:) </p>
     <p>After each style u need to u need to use semi-clone(;)   </p>
+    <p class="player">This is a stand alone paragraph</p>
+    <p class="player">crick fan</p>
 </body>
 </html>
